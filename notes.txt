@@ -1,0 +1,27 @@
+What do we want?
+Being able to talk to the module via USB.
+Power the module via USB.
+Power the module somehow else, while talking to it via USB.
+Maybe we can use some solder bridges or jumpers?
+Maybe bring out VBUS to the breadboard?
+Connect VBUS via a 4R7 resistor.
+---
+TODO:
+Avoid ground loops
+    - done?
+Use thicker traces for power?
+    - done
+See if we can add a power LED
+    - probably not, given voltage range
+Check if we have VBUS_SAFE exposed as a pin/jumper to connect to VDDH
+    - done, exposed
+See if we can squeeze pin legend in
+    - done, squeezed in!
+Check we're complying with the module's routing recommendations
+    - we try to!
+Check if USB D+ and D- are the same length
+    - done
+Check pinout matches connections, matches connectors, matches silkscreen
+    - done
+Check silkscreen is no closer than 0.15 mm to pads
+    - done
