@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name breadebyte)(type Legacy)(uri ${KIPRJMOD}/breadebyte.lib)(options "")(descr ""))
 )
